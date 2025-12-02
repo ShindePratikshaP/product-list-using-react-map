@@ -10,7 +10,7 @@ function Home() {
     <div>
         <h1 className='heading' style={{color:PRIMARY_COLOR}}>{APP_NAME}</h1>
         <div>
-          {APP_DESCRIPTION ? (<p className='app-des' style={{color:seco}}>{APP_DESCRIPTION}</p>):null }
+          {APP_DESCRIPTION ? (<p className='app-des' style={{color:SECONDARY_COLOR}}>{APP_DESCRIPTION}</p>):null }
         </div>
 
         <div className='product-container'>
