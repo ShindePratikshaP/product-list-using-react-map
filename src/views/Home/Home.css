@@ -1,0 +1,19 @@
+.product-card{
+    background-color: rgb(247, 255, 239);
+    padding: 5px 20px;
+    border: 0px solid rgb(87, 107, 87);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow:  2px 2px 5px rgb(190, 190, 190);
+    width: 300px;
+    height: 150px;
+    cursor: pointer;
+    position: relative;
+}
+.app-des{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(107, 150, 135);
+}
