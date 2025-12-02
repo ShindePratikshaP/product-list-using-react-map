@@ -2,9 +2,6 @@ import React from 'react';
 import "./ProductCard.css";
 import { LIGHT_COLOR, PRIMARY_COLOR } from '../../configs/app';
 
-
-
-
 function ProductCard({id,name,description,image}) {
   return (
     <div className="product-card" style={{borderColor:PRIMARY_COLOR , backgroundColor:LIGHT_COLOR}}>
